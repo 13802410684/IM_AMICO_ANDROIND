@@ -1,0 +1,9 @@
+syntax="proto2";
+package protobuf; 
+option java_package = "com.amico.service.im.net.req.protobuf"; 
+option java_outer_classname = "RequestProto"; 
+message RequestMessageProto  { 
+  required string event = 1; 
+  required string className = 2; 
+  required bytes data=3; 
+}
